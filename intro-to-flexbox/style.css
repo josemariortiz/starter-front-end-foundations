@@ -24,8 +24,10 @@ h3 {
 
 /* --- Groups & Items --- */
 
-.group {
-}
+/* .group {
+  display: flex;
+  flex-direction: column;
+} */
 
 .item {
 }
