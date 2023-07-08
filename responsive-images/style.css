@@ -53,3 +53,8 @@ h3 {
 img {
   width: 100%
 }
+
+header {
+  background-color: black;
+  margin-bottom: 40px;
+}

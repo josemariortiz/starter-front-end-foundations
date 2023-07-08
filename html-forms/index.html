@@ -14,5 +14,49 @@
 
   <body>
     <main></main>
+    <form action="">
+      <fieldset>
+        <legend>Help pls</legend>
+        <div>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Dito po yung pull name nyo po"/>
+        </div>
+        <div>
+          <label for="location">Zipcode</label>
+          <input 
+            id="location"
+            type="text"
+            name="zipcode"
+            autofocus="on"
+            maxlength="5"
+            placeholder="Yung zipcode po ma'am"
+            required
+          />
+        </div>
+      </fieldset>
+      <div>
+        <label for="form-message">Your Message:</label>
+        <textarea name="message" id="form-message" ></textarea>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" minlength="8ß">
+      </div>
+      <div>
+        <h2>favorite Class</h2>
+          <div>
+            <input id="hunter" name="class" type="radio" value="hunter">
+            <label for="hunter">Hunter</label>
+          </div>
+          <div>
+            <input id="warlock" name="class" type="radio" value="warlock">
+            <label for="warlock">Warlock</label>
+          </div>
+          <div>
+            <input id="titan" name="class" type="radio" value="titan">
+            <label for="titan">Titan</label>
+          </div>
+      </div>
+    </form>
   </body>
 </html>
